@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>HTML Tutorial</title>
+    <title>Style Practice! </title>
 </head>
-<body>
 
 <body>
-    
-<div style="background-color: darkslategrey;"> Nav bar </div>   
-   <ui>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+    <!-- A comment is a text that only humans can see and read.-->
+    <!--Computer and code editors cannot read or run comments-->
 
-
-
-
-<div style="background-color:purple;"> landing image
-
+    <!--the style attribute is gives our html elements more power ot control how an element looks-->
+    <!-- the style attribute keyword needs to go inside the opening tag of an html element -->
+    <div style="background-color:rgb(12, 111, 114);height: 60px"> upper Nav bar</div>
+    <div style="background-color:rgb(178, 209, 243);font-size: 50px">
+        <ul style="list-style-type: none; overflow: hidden; color:azure ">
+            <li style="float:left">Mens</li>
+            <li style="float:left">Womens</li>
+            <li style="float:left">Kids </li>
+            <li style="float:left">Accessories</li>
+        </ul>
+    </div>
+    <div style="background-color:rgb(165, 186, 187);font-size: 200px"> Landing Image </div>
 </body>
+
 </html>
