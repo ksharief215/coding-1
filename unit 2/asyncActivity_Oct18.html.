@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Async Activity</title>
+<style>
+    .rulesForGrid {
+            background-color:cornflowerblue;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+        }
+        .oppositeClass {
+            background-color: grey;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+</style>
+</head>
+<body class="grid-container">
+
+
+
+</body>
+</html>
