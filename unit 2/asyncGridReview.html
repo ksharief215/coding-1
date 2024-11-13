@@ -2,25 +2,33 @@
 <html>
 
 <head>
-    <title>Grid Review</title>
-    <style>{
-    .DivRules
-    background-color:steelgrey;
-    height: 35px;
-    width: 35px;
-    
-    }
+    <title>CSS GRID</title>
+    <style>
+        .rulesForGrid {
+            background-color:cornflowerblue;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+        }
+        .oppositeClass {
+            background-color: grey;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
     </style>
 </head>
-
-<body>
-    <div class="DivRules">1</div>
-    <div class="DivRules">2</div>
-    <div class="DivRules">3</div>
-    <div class="DivRules">4</div>
-    <div class="DivRules">5</div>
-    <div class="DivRules">6</div>
-    <div class="DivRules">7</div>
+<body class="grid-container">
+        <div class="rulesForGrid">1</div>
+        <div class="oppositeClass">2</div>
+        <div class="rulesForGrid">3</div>
+        <div class="oppositeClass">4</div>
+        <div class="rulesForGrid">5</div>
+        <div class="oppositeClass">6</div>
 </body>
 
 </html>
