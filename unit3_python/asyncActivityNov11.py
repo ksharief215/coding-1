@@ -4,7 +4,7 @@
 # we should use the logical operator because we need to compare 2
 # pieces of code
 name= 'Khaseer'
-passwords= '123'
+password= '123'
 
 securityName= 'Khaseer'
 securityPassword= '123'
